@@ -822,16 +822,26 @@ button {
 
 .result-card {
   max-width: 720px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   padding: 55px 35px;
 }
 
 .result-card img {
-  width: 150px;
-  margin-bottom: 25px;
-  filter: drop-shadow(0 12px 30px rgba(143, 231, 255, 0.18));
+  width: 180px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+  filter: drop-shadow(0 12px 35px rgba(143, 231, 255, 0.25));
 }
+
+.result-card .chapter {
+  display: block;
+  text-align: center;
+  margin: 0 auto 12px;
+}
+
+
 
 .result-card h2 {
   font-size: 3rem;
